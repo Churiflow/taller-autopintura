@@ -1,12 +1,66 @@
-# React + Vite
+🚗 AutoColor - Sitio Web Oficial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AutoColor es un sitio web profesional diseñado para mostrar los servicios de pintura automotriz.
+Este proyecto fue desarrollado utilizando React y Windicss, con un enfoque en la modularidad y el código limpio.
 
-Currently, two official plugins are available:
+🛠 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React ⚛️ - Para el desarrollo del frontend.
 
-## Expanding the ESLint configuration
+Windicss 🎨 - Para el estilizado con clases utilitarias en archivos CSS separados.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router 🔀 - Para la navegación entre páginas.
+
+GitHub & Netlify 🚀 - Para el control de versiones y el despliegue.
+
+📂 Estructura del Proyecto
+📦 AutoColor
+ ┣ 📂 src
+ ┃ ┣ 📂 components  # Componentes reutilizables
+ ┃ ┣ 📂 pages        # Páginas principales (Home, Gallery, Services, Contact)
+ ┃ ┣ 📂 styles       # Archivos CSS con Windicss
+ ┃ ┗ 📜 App.jsx      # Componente principal
+ ┣ 📜 package.json   # Dependencias y scripts
+ ┣ 📜 README.md      # Documentación
+ ┗ 📜 .gitignore     # Archivos ignorados por Git
+
+ 🚀 Instalación y Uso
+
+1️⃣ Clonar el repositorio
+git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+cd AutoColor
+
+2️⃣ Instalar dependencias
+
+pnpm install
+
+3️⃣ Correr el proyecto en modo desarrollo
+
+pnpm dev
+
+4️⃣ Desplegar en Netlify (si aún no está publicado)
+
+Puedes subir el código manualmente a Netlify o conectar el repositorio desde GitHub.
+
+4️⃣ Construir para Producción
+sh
+Copiar
+Editar
+pnpm build
+
+5️⃣ Desplegar en Netlify
+Subir el código a GitHub.
+Conectar el repositorio a Netlify.
+Configurar pnpm run build como comando de construcción.
+¡Listo! 🚀
+
+✨ Autor
+
+Desarrollado con pasión y código limpio por Robert Lopez Ita 🚀🔥
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. ¡Úsalo, modifícalo y mejóralo a tu gusto! 🎨
+
+
+
