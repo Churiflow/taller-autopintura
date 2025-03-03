@@ -1,0 +1,12 @@
+.navbar {
+    @apply bg-blue-600 text-white py-4 px-6 flex justify-between items-center shadow-lg;
+  }
+  
+  .navbar ul {
+    @apply flex space-x-6;
+  }
+  
+  .navbar a {
+    @apply hover:text-gray-200;
+  }
+  

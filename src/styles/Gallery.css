@@ -1,0 +1,4 @@
+.gallery-img {
+    @apply w-full h-40 md:h-48 object-cover rounded-lg shadow-lg;
+  }
+  

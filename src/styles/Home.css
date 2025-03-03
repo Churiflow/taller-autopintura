@@ -1,0 +1,14 @@
+.home-container {
+    @apply flex flex-col items-center justify-start h-auto bg-gray-100 text-gray-900 flex-grow;
+    padding-top: 50px; /* Espaciado para que no quede pegado arriba */
+  }
+  
+  .home-title {
+    @apply text-4xl font-bold text-blue-600 mb-4;
+  }
+  
+  .home-text {
+    @apply text-lg text-center max-w-2xl mb-6;
+  }
+  
+  

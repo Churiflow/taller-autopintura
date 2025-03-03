@@ -1,0 +1,29 @@
+.contact-container {
+    @apply p-6 bg-gray-100 rounded-xl shadow-md max-w-lg mx-auto mt-6;
+  }
+  
+  .contact-title {
+    @apply text-2xl font-bold text-center text-blue-600 mb-4;
+  }
+  
+  .contact-form {
+    @apply flex flex-col space-y-4;
+  }
+  
+  .contact-label {
+    @apply font-semibold text-gray-700;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    @apply p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .contact-textarea {
+    @apply h-32 resize-none;
+  }
+  
+  .contact-button {
+    @apply bg-blue-600 text-white font-bold py-2 rounded-lg shadow hover:bg-blue-700 transition-all;
+  }
+  

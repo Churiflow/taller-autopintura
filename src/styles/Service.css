@@ -1,0 +1,16 @@
+.services-container {
+    @apply p-6 bg-gray-100 rounded-xl shadow-md max-w-2xl mx-auto mt-6;
+  }
+  
+  .services-title {
+    @apply text-2xl font-bold text-center text-blue-600 mb-4;
+  }
+  
+  .services-list {
+    @apply space-y-2 text-gray-700;
+  }
+  
+  .service-item {
+    @apply p-3 bg-white rounded-lg shadow;
+  }
+  
